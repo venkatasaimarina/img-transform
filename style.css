@@ -1,0 +1,63 @@
+.image1{
+
+    display: flex;
+    border-radius: 30px;
+}
+.image1:hover{
+    transform: scale(1.1);
+    transition: transform 0.5s;
+    border-radius: 30px;
+}
+
+.image2{
+
+    display: flex;
+    border-radius: 30px;
+
+}
+.image2:hover{
+    transform: rotate(4deg);
+    transition: transform 0.5s;
+    border-radius: 30px;
+}
+.image3{
+    display: flex;
+    border-radius: 30px;
+
+}
+.image3:hover{
+    transform: skewX(10deg);
+    transition: transform 0.5s;
+    border-radius: 30px;
+}
+.image4{
+    display: flex;
+    border-radius: 30px;
+}
+
+.image4:hover{
+    animation: trans 4s linear infinite;
+    transition: transform 1s linear;
+    border-radius: 30px;
+}
+@keyframes trans{
+    0% {
+        transform:translatex(-100%);
+    }
+    50% {
+        transform: translatey(50%);
+    }
+    75% {
+        transform: translatex(100%);
+    }
+    100% {
+        transform: translatex(-100%);
+    }
+}
+.image5{
+    display: flex;
+    border-radius: 30px;
+}
+.image5.hover{
+    transform: matrix(1, 0.5, -0.5, 1, 100, 200);
+}
